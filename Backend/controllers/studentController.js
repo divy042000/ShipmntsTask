@@ -3,6 +3,29 @@ const ClassroomSchema = require('../models/classroomSchema.js');
 const StudentSchema = require('../models/studentSchema.js');
 const TaskSchema = require('../models/classroomSchema.js');
 
+
+
+// Example student data
+
+// Example student data
+const studentData = {
+  name: 'Alice Johnson',
+  email: 'alicejohnson@example.com',
+  classrooms: [] // Or populate with classroom ObjectIds if available
+};
+
+async function saveStudent(studentData) {
+  try {
+    const newStudent = new StudentSchema(studentData);
+    const savedStudent = await newStudent.save();
+    console.log('Student saved successfully:', savedStudent);
+  } catch (err) {
+    console.error('Error saving student:', err);
+  }
+}
+
+saveStudent(studentData);
+
 const viewClassroomStudents = async (req, res , next) => {
     try {
       const { studentId } = req.params;

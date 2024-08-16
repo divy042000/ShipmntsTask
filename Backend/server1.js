@@ -4,8 +4,6 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const backRoutes = require("./routes/routes");
 
-// Your application setup continues here...
-
 
 dotenv.config();
 

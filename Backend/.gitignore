@@ -1,0 +1,120 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+build/
+public/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.local
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.tgz
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swm
+*.swn
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build output
+.nuxt/
+
+# SvelteKit build output
+.svelte-kit/
+
+# React Native
+*.iml
+*.hprof
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Compiled binary addons (Node.js native addons)
+build/Release/
+
+# IDE specific files
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.idea/
+*.vscode/
+*.swp
+*.swm
+*.swn
+
+# JetBrains IDEs
+*.iml
+*.ipr
+*.iws
+
+# Other
+*.orig
+*.lock

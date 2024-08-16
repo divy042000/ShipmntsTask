@@ -1,16 +1,8 @@
 const express = require('express');
-const router = express.Router(); // Corrected import statement
-
+const router = express.Router(); 
 router.post("/", (req, res) => {
-  // Handler for the first POST route
+  
 });
 
-router.post("/", (req, res) => {
-  // Handler for the second POST route
-});
 
-router.post("/", (req, res) => {
-  // Handler for the third POST route
-});
-
-module.exports = router; // Properly exporting the router instance
+module.exports = router; 
